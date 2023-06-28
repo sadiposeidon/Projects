@@ -5,7 +5,7 @@ const content = "Lorem Ipsum is simply dummy text of the printing and typesettin
 let i = 0;
 
 function writeText() {
-    if (i > content.length){
+    if (i > content.length) {
         i = 0;
     } else {
         heading_element.innerHTML = content.slice(0, i);
